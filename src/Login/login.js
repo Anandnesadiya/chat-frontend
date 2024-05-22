@@ -65,7 +65,6 @@ const Login = () => {
                 <label htmlFor="psw"><b>Password</b></label>
                 <input  {...register("Password")} type="password" placeholder="Enter Password" required />
 
-
                 <br />
 
                 <div className={`${LoginCss.clearfix} ${LoginCss.loginDiv}`}>

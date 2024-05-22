@@ -74,7 +74,6 @@ const Signup = () => {
                     <label htmlFor="number"><b>PhoneNumber</b></label>
                     <input {...register("PhoneNumber")} type="text" placeholder="Enter PhoneNumber" required />
 
-
                     <br />
 
                     <div className={`${SignupCss.clearfix} ${SignupCss.loginDiv}`} >

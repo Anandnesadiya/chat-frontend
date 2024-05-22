@@ -1,0 +1,30 @@
+#container {
+    height: 100vh;
+}
+
+#userList {
+    padding: 0px;
+}
+
+#chat {
+    padding: 0px 0px;
+}
+
+#childNav {
+    height: 60px;
+    padding: 0px 0px;
+}
+
+#searchUser{
+    width: 260px;
+}
+
+#userName {
+    width: 100%;
+}
+
+#searchbtn{
+    width: 60px;
+    margin: 0px 0px !important;
+    height: 33px;
+}
