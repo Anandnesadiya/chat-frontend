@@ -1,13 +1,14 @@
 #container {
-    height: 100vh;
+    height: 85vh;
 }
 
 #userList {
     padding: 0px;
 }
 
-#chat {
+#chatArea {
     padding: 0px 0px;
+    position: relative;
 }
 
 #childNav {
@@ -15,7 +16,7 @@
     padding: 0px 0px;
 }
 
-#searchUser{
+#searchUser {
     width: 260px;
 }
 
@@ -23,8 +24,31 @@
     width: 100%;
 }
 
-#searchbtn{
+#searchbtn {
     width: 60px;
     margin: 0px 0px !important;
     height: 33px;
+}
+
+#chat {
+    max-height: 450px;
+    overflow: auto
+}
+
+#chatInput {
+    width: 700px;
+    margin-left: 15px;
+    margin-top: 22px;
+    height: 45px;
+}
+
+#chatSendbtn {
+    margin-top: 25px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+#inputdiv{
+    position: absolute;
+    bottom: 0;
 }
