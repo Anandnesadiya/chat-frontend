@@ -1,5 +1,5 @@
 #container {
-    height: 85vh;
+    height: 600px;
 }
 
 #userList {
@@ -31,7 +31,7 @@
 }
 
 #chat {
-    max-height: 450px;
+    max-height: 350px;
     overflow: auto
 }
 
@@ -51,4 +51,8 @@
 #inputdiv{
     position: absolute;
     bottom: 0;
+}
+
+#msges{
+    margin: 40px 40px;
 }

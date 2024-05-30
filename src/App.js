@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import Signup from './Signup/signup';
 import Dashboard from './Components/Dashboard/dashboard';
+import io from 'socket.io-client';
 function App() {
 
   const navigate = useNavigate();
@@ -15,6 +16,12 @@ function App() {
       navigate('/');
     }
     else {
+
+      const socket = io('http://localhost:8080', {
+        auth: {
+          token : localStorage.getItem('accesstoken') 
+        }
+      })
       navigate('/layout/dashboard')
     }
   }, []);

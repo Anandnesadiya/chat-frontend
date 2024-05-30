@@ -72,7 +72,7 @@ const Signup = () => {
                     <input {...register("Password")} type="password" placeholder="Enter Password" required />
 
                     <label htmlFor="number"><b>PhoneNumber</b></label>
-                    <input {...register("PhoneNumber")} type="text" placeholder="Enter PhoneNumber" required />
+                    <input maxLength={10} minLength={10} {...register("PhoneNumber")} type="text" placeholder="Enter PhoneNumber" required />
 
                     <br />
 
